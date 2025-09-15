@@ -1,13 +1,24 @@
-# Customers
+# 🛍️ Customer Segmentation Workshop: Leveraging K-Prototypes
 
-This workshop is about customer segmentation 
+---
 
-In this workshop , I show or analyze something like below:
+## **Workshop Overview**
 
-1.How to handle mixed data for customer segmentation (K-prototypes)
+This workshop provides a hands-on guide to customer segmentation, focusing on the powerful K-Prototypes clustering algorithm. We'll explore how to handle mixed data types and validate our segmentation results using statistical and visual methods.
 
-2.How to use K-prototypes apply silhouette_score and silhouette_samples in scikit-learn to choose suitable the number of cluster and initialization
+---
 
-3.How to use seaborn for visualization and use statistics test to make sure something when visualization may not show obviously 
+## **Key Learning Objectives**
 
-Libraries : Pandas , Seaborn , Matplotlib , Numpy , Scikit-learn , **Kmodes , **Scipy
+1.  **Handling Mixed Data:** Learn to prepare and analyze datasets that contain both numerical and categorical features for effective clustering using the **K-Prototypes** algorithm.
+2.  **Cluster Validation:** Use the **silhouette score** and **silhouette samples** from scikit-learn to determine the optimal number of clusters and evaluate the quality of your clustering results.
+3.  **Visualization & Statistical Testing:** Visualize your customer segments using `seaborn` and confirm your insights with statistical tests to ensure that the differences between clusters are truly significant.
+
+---
+
+## **Technologies Used**
+
+* **Data Manipulation:** `pandas`, `numpy`
+* **Clustering:** `kmodes`, `scikit-learn`
+* **Data Visualization:** `seaborn`, `matplotlib`
+* **Statistical Analysis:** `scipy`
